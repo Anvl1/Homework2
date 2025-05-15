@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main()
 {
 	int num;
 
 	setlocale(LC_ALL, "");
-	std::wcout << L"Ââåäèòå ÷èñëî:\n" << std::endl;
+	std::wcout << L"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:\n" << std::endl;
 	std::cin >> num;
-	std::wcout << L"Âû ââåëè:\n" << num << std::endl;
+	std::wcout << L"Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸:\n" << num << std::endl;
 }
